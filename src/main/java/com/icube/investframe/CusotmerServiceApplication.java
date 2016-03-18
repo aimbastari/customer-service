@@ -11,10 +11,15 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
 import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+/**
+ * Represents the Customer Service
+ * Will interact with the Investment Service
+ * 
+ * @author aimbastari
+ *
+ */
 @SpringBootApplication
-@EnableSwagger2
 public class CusotmerServiceApplication extends WebMvcConfigurerAdapter{
 	
 	@Bean
